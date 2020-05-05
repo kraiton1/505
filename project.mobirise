@@ -1,0 +1,56 @@
+{
+  "settings": {
+    "name": "Lead",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.12.3",
+    "siteFonts": [],
+    "imageResize": false,
+    "google-analytics": "<embed src=\"https://hunterlead.com/?ref=125540\" name=\"kraiton1\" width=\"100%\"height=\"1300px\" scrolling=\"Yes\" frameborder=\"1\" align=\"center\"></embed>\n\n\n<script language='JavaScript1.2'>\nfunction disableselect(e){\nreturn false\n}\nfunction reEnable(){\nreturn true\n}\ndocument.onselectstart=new Function (\"return false\")\nif (window.sidebar){\ndocument.onmousedown=disableselect\ndocument.onclick=reEnable\n}\n</script>\n\n\n",
+    "favicon": "@PROJECT_PATH@/assets/images/5455-128x128.png",
+    "robotsSwitcher": true,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": {
+      "customDialogSelector": true,
+      "colorText": "#424a4d",
+      "colorBg": "#eaeff1",
+      "colorButton": "",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacity": "99",
+      "opacityOverlay": "80",
+      "text": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Yes"
+    },
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "uniqCompNum": 0,
+    "versionPublish": "4.12.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Programm",
+        "meta_descr": "Сервис  занимается размещением вашей рекламы на тематических сайтах. Вы получаете только заинтересованную аудиторию, так как при заказе рекламы вы сами выбираете, в какой категории сайтов показывать ваше объявление.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1920x940.jpg"
+      },
+      "components": []
+    }
+  }
+}
